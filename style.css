@@ -36,7 +36,7 @@ ul {
   padding-left: 0;
 }
 
-i {
+.list-inline i {
   font-size:35px;
   letter-spacing: 20px;
 }
@@ -82,6 +82,30 @@ i {
 .list-inline > li {
   display: inline;
 }
+
+#sidebar {
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background:#384047;
+  text-align: center;
+}
+
+#sidebar i {
+  font-size: 25px;
+}
+
+#sidebar li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#page-content {
+  margin-left: 300px;
+}
+
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
